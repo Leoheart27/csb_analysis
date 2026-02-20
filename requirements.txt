@@ -1,0 +1,3 @@
+## main libraries
+pandas==3.0.1
+sqlalchemy==2.0.46
