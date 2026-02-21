@@ -2,13 +2,25 @@
 DA project based on costumers shopping behavior
 <br>
 
-<h3>Python</h3>
-*A plugin of jupyter was used for better code organization and better preview in an iterative window. <br>
-*Comments are detailing each step inside "data_01.py". <br> <br>
+<h3>Python Transformation</h3>
+
 - Load data, fill null data based on mean value grouped by category. <br>
 - Format columns names using str.lower() and str.replace() to lower case the names and replace spaces with "_". <br>
 - Create new columns to enrich the understanding of existing columns. <br>
 - Remove of redundant columns. <br>
 - Saving cleaned data
+<br>
 
-cotinue...
+<h3>PostgreSQL Analysis</h3>
+
+- Total revenue by gender. <br>
+- Customers that used discount but still spent more than the average purchase amount. <br>
+- Top 5 products with the highest average review rating. <br>
+- Average Purchase amount between Standard and Express Shipping.  <br>
+- average spend and total revenue, between subscribers and non-subscribers. <br>
+- Top 5 products that have the highest percentage of purchases with discounts applied. <br>
+- Segment customers into New, Returning, and Loyal based on their total<br>
+number of previous purchases, and show the count of each segment. <br>
+- Top 3 most purchased products within each category. <br>
+- Check if customers that are repeat buyers (more than 5 previous purchases) are likely to subscribe.<br>
+- Revenue contribution of each age group? <br>
