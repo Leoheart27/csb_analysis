@@ -2,16 +2,16 @@
 DA project based on costumers shopping behavior
 <br>
 
-<h3>Python Transformation</h3>
+<h3>Python Data Transformation</h3>
 
 - Load data, fill null data based on mean value grouped by category. <br>
 - Format columns names using str.lower() and str.replace() to lower case the names and replace spaces with "_". <br>
 - Create new columns to enrich the understanding of existing columns. <br>
-- Remove of redundant columns. <br>
-- Saving cleaned data
+- Removal of redundant columns. <br>
+- Saving cleaned data and exporting to PostgreSQL
 <br>
 
-<h3>PostgreSQL Analysis</h3>
+<h3>PostgreSQL Data Analysis</h3>
 
 - Total revenue by gender. <br>
 - Customers that used discount but still spent more than the average purchase amount. <br>
