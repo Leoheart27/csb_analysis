@@ -81,14 +81,14 @@ select item_rank, category, item_purchased, total_orders
 from item_counts
 where item_rank <= 3;
  
---Q9. Are customers who are repeat buyers (more than 5 previous purchases) also likely to subscribe?
+-- Check if customers that are repeat buyers (more than 5 previous purchases) are likely to subscribe.
 select subscription_status,
 count(customer_id) as repeat_buyers
 from customer_shopping_behavior
 where previous_purchases > 5
 group by subscription_status;
 
---Q10. What is the revenue contribution of each age group? 
+-- Revenue contribution of each age group? 
 select age_group,
 SUM(purchase_amount_usd) as total_revenue
 from customer_shopping_behavior
