@@ -9,7 +9,6 @@ DA project based on costumers shopping behavior
 - Create new columns to enrich the understanding of existing columns. <br>
 - Removal of redundant columns. <br>
 - Saving cleaned data and exporting to PostgreSQL
-<br>
 
 <h3>PostgreSQL Data Analysis</h3>
 
