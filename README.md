@@ -23,3 +23,6 @@ number of previous purchases, and show the count of each segment. <br>
 - Top 3 most purchased products within each category. <br>
 - Check if customers that are repeat buyers (more than 5 previous purchases) are likely to subscribe.<br>
 - Revenue contribution of each age group? <br>
+
+<h3>Power BI Dashboard</h3>
+<img src="/dashboard_csb.png" alt="Alt text" width="600"/>
